@@ -1,10 +1,3 @@
-document.querySelectorAll('[data-placeholder]').forEach(el=>{
-  el.addEventListener('click',e=>{
-    e.preventDefault();
-    alert('RetroMaster Website v0.3 is GitHub-ready. This link will be connected after we confirm the public repository URL.');
-  });
-});
-
 const sections=[...document.querySelectorAll('main section[id]')];
 const nav=[...document.querySelectorAll('.topbar nav a')];
 const observer=new IntersectionObserver(entries=>{
